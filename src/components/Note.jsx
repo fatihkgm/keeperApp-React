@@ -1,10 +1,10 @@
 import React from "react";
 
-function Note() {
+function Note(promps) {
   return (
     <div className="note">
-      <h1>This is H1</h1>
-      <p>tHIS IS THE CONTENT</p>
+      <h1>{promps.title}</h1>
+      <p>{promps.content}</p>
     </div>
   );
 }
